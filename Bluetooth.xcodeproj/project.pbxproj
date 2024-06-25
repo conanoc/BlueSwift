@@ -587,7 +587,7 @@
 				TargetAttributes = {
 					3837BA0A1FFFC2FE00DF300E = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					3837BA301FFFC4CE00DF300E = {
 						CreatedOnToolsVersion = 9.2;
@@ -753,6 +753,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A142D24210F0EEE000A6089 /* Sample-Base.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAZ4DT76QQ;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netguru.lib.blueswift.sample;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -760,6 +765,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A142D24210F0EEE000A6089 /* Sample-Base.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAZ4DT76QQ;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netguru.lib.blueswift.sample;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
