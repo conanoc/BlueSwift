@@ -84,6 +84,7 @@ extension ConnectionService {
     
     /// Starts connection with passed device. Connection result is passed in handler closure.
     internal func connect(_ peripheral: Peripheral<Connectable>, handler: @escaping (Peripheral<Connectable>, ConnectionError?) -> ()) {
+        connectionHandler = handler
         peripherals.append(peripheral)
         reloadScanning()
     }
